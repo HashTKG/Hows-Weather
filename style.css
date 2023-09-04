@@ -69,12 +69,33 @@ h1{
     min-height: 45vh;
     /* background-color: rgba(0, 0, 0, 0.496); */
 }
+
+.weatherCard h3{
+    font-size: 3em;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+        background-image: none;
+        background-color: rgba(0, 255, 255, 0.308);
+    }
+      #citySearch{
+      display: block;
+      padding: 1em;
+      margin: 1em auto;
+      border: none;
+      /* border-bottom: 1px solid rgb(0, 0, 0); */
+      background-color: rgb(11, 7, 1);
+      color: aliceblue;
+      border-radius: 2em;
+      cursor: pointer;
+     }
+    }
+
 /* .weatherInfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 } */
-.weatherCard h3{
-    font-size: 3em;
-}
